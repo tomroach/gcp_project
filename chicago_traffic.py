@@ -21,7 +21,7 @@ def run():
               'street'             : 'street'
               }
 
-    schema = "direction:STRING,last_updated:DATETIME,length:STRING,start_lon:FLOAT64,start_lat:FLOAT64,end_lat:FLOAT64,end_lon:FLOAT64,street_heading:STRING,to_street:STRING,from_street:STRING,traffic_speed:INT64,segment_id:INT64,street:STRING,comments:STRING"
+    schema = "segment_id:INT64,traffic_speed:INT64,street:STRING,street_heading:STRING,direction:STRING,from_street:STRING,to_street:STRING,last_updated:DATETIME,length:STRING,start_lon:FLOAT64,start_lat:FLOAT64,end_lon:FLOAT64,end_lat:FLOAT64,comments:STRING"
 
     url = "https://data.cityofchicago.org/resource/n4j6-wkkf.json"
 
